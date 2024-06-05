@@ -1,0 +1,51 @@
+/*how do we select a class in CSS? */
+
+body {
+    background-color: #333;
+}
+ 
+.nav-link {
+    color: orange;
+    background-color: rgba(147, 130, 114, 0.636);
+    text-decoration: none;
+
+}
+
+main {
+    max-width: 600px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 3px dotted orange;
+    padding: 16px;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: 800;
+   
+}
+.d-inline {
+    display: inline;
+}
+
+nav > ul {
+    list-style: none; 
+}
+
+#avater {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 34px;
+    display: block;
+}

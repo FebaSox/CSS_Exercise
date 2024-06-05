@@ -1,66 +1,70 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CSS Intro</title>
-    <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/projects">Projects</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
 
-    <main>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="d-inline">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="d-inline">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="d-inline">
+          <a class="nav-link" href="/projects">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1 id="title" >Main Heading</h1>
+      <img id="avater" src="./images/IMG_2870.JPG" alt="Author Headshot"
+      
+      <p>Author. . Bio.. </p>
+    </section>
+    <article>
       <section>
-        <h1>Main Heading</h1>
-        <img src="./images/example.png" alt="Author Headshot" />
-        <p>Author.. Bio...</p>
+        <h2>Sub Heading</h2>
+        <p>lorem ipsum</p>
       </section>
-      <article>
-        <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
-        </section>
-        <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
-          <div>
-            <h3>Another Sub Heading</h3>
-            <p>Lorem ipsum...</p>
-          </div>
-        </section>
-      </article>
-    </main>
+      <section>
+        <h2>Sub Heading</h2>
+        <p>Lorem ipsum</p>
+        <div>
+          <h3>Another Sub Heading</h3>
+          <p>Lorem ispum</p>
+        </div>
+      </section>
+    </article>
+  </main>
 
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <a href="/privacy">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="/terms">Terms and Conditions</a>
-          </li>
-        </ul>
-      </nav>
+  <footer>
+    <nav>
+      <ul>
+        <li class="d-inline">
+          <a class="nav-link" href="/privacy">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="nav-link" href="terms">Terms and Conditions</a>
+        </li class="d-inline">
+      </ul>
+    </nav>
 
-      <div>
-        <p>Powered by 🕯️</p>
-        <p>&copy; TrueCoders 2021-24</p>
-      </div>
-    </footer>
-  </body>
+    <div>
+      <p>Powered by SubaTheSeba</p>
+      <p>&copy; TrueCoders 2021-24</p>
+    </div>
+  </footer>
+</body>
+
 </html>
